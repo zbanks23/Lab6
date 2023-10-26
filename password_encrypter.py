@@ -3,7 +3,7 @@ def menu():
     print("-------------")
     print("1. Encode")
     print("2. Decode")
-    print("3. Quit\n\n")
+    print("3. Quit\n")
 
 def encode(password):
     new_pass = ''
@@ -30,3 +30,6 @@ def main():
             pass
         else:
             break
+
+if __name__ == "__main__":
+    main()
